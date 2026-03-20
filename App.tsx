@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { GoogleGenAI } from "@google/genai";
-import { supabase } from './lib/supabaseClient';
 import { 
   LayoutDashboard, 
   PlusCircle, 
